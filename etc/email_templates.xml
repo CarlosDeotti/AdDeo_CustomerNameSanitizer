@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+ @author    Carlos Deotti <deotti@gmail.com>
+ @copyright 2026 AdDeo
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="addeo_customer_registered"
+              label="Customer Registered"
+              file="customer_registered.html"
+              type="html"
+              module="AdDeo_CustomerNameSanitaizer"
+              area="frontend"/>
+</config>
